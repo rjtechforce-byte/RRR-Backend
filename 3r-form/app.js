@@ -16,7 +16,7 @@ const schoolRoute = require('./routes/schoolRoute');
 // Middleware to parse JSON bodies
 app.use(
   cors({
-    origin: 'https://rrr-frontend-iota.vercel.app/',
+    origin: 'https://rrr-frontend-iota.vercel.app',
     credentials: true, // Only allow this specific origin
   })
 );
