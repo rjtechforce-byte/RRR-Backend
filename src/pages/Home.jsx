@@ -49,13 +49,13 @@ function Home() {
     name: "",
     category: "",
     description: "",
-    schoolName: "",
+    schoolName: ""
   });
   const { contextSafe } = useGSAP();
   const fun = contextSafe(() => {
     gsap.to(".cardOfDetailProduct", {
       display: "flex",
-      opacity: 1,
+      opacity: 1
     });
   });
 
@@ -293,7 +293,7 @@ function Home() {
               title,
               thumbnail,
               schoolName,
-              _id,
+              _id
             }) {
               return (
                 <Item
@@ -322,7 +322,7 @@ function Home() {
           donor: detailCard.donorName,
           availability: detailCard.availability,
           donorClass: detailCard.donorClass,
-          condition: detailCard.condition,
+          condition: detailCard.condition
         }}
       />
     </>
